@@ -1,0 +1,19 @@
+{
+	"name": "@jimii/anchor-marketplace",
+	"version": "0.0.6",
+	"main": "./dist/main.js",
+	"scripts": {
+		"build:ts": "rm -rf ./dist && tsc",
+		"update-idl": "cp ../anchor-marketplace/target/types/anchor_marketplace.ts src/idl",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@coral-xyz/anchor": "^0.29.0",
+		"@solana/spl-token": "^0.4.8",
+		"@solana/web3.js": "^1.95.0"
+	}
+}
